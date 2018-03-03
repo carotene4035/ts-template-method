@@ -2,15 +2,15 @@ import { AbstDisp } from './abstdisp';
 
 export class DispA extends AbstDisp {
 
-    public open() {
+    protected open() {
         console.log('--');
     }
 
-    public close() {
+    protected close() {
         console.log('--');
     }
     
-    public print() {
+    protected print() {
         console.log('keep out ');
     }
 
